@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    // grid
+    <dimen name="grid_size_1x">8dp</dimen>
+    <dimen name="grid_size_2x">16dp</dimen>
+
+    // text
+    <dimen name="text_size_large_4x">24sp</dimen>
+    <dimen name="text_size_large_3x">20sp</dimen>
+    <dimen name="text_size_large_2x">18sp</dimen>
+    <dimen name="text_size_large_1x">16sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+
+</resources>

@@ -5,6 +5,28 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textAppearance">@style/Text</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+
+    <style name="RadioButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+
+    <style name="RadioButton.IssueState">
+        <item name="android:background">@drawable/issue_state_button_selector</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/grid_size_1x</item>
+        <item name="android:button">@android:color/transparent</item>
+        <item name="android:layout_width">match_parent</item>
     </style>
 
 </resources>

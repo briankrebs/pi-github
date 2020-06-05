@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Github</string>
+
+    // repository list
+    <string name="repository_list_label">Repositories</string>
+    <plurals name="repository_list_issue_count">
+        <item quantity="one">%d open issue</item>
+        <item quantity="other">%d open issues</item>
+    </plurals>
+
+    // issue list
+    <string name="issue_list_label">Issues</string>
+    <string name="issue_list_button_all">All</string>
+    <string name="issue_list_button_open">Open</string>
+    <string name="issue_list_button_closed">Closed</string>
+
 </resources>
